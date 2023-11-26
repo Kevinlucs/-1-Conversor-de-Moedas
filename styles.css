@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://global-uploads.webflow.com/5ef503b9dcd722d7cc5424e7/632c97e52142c14e98e55bb6_01_converter_btc_real_1200x800.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    font-size: 28px;
+    padding: 10px;
+  }
+  
+  .container {
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 0 0 8px black;
+  }
+  
+  form {
+    margin-top: 15px;
+  }
+  
+  input,
+  button {
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  input {
+    height: 50px;
+    border: 1px solid #999;
+    padding: 0 15px;
+  }
+  
+  button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #8a2be2;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    background-color: #e9ecef;
+    font-family: sans-serif;
+    color: BLACK;
+    font-weight: bold;
+    margin: 0 0 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+  
